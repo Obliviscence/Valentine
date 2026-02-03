@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Important Question 💘</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <audio id="bgMusic" loop preload="auto">
+    <source src="RJsong.mp3" type="audio/mpeg" />
+  </audio>
+
+  <!-- Heart gate overlay -->
+  <div id="heartGate" class="heart-gate" onclick="enterSite()">
+    <div class="big-heart" aria-label="Tap the heart to start">💖</div>
+    <div class="gate-text">Tap the heart</div>
+  </div>
+
+  <!-- Main content -->
+  <div class="container" id="content" aria-hidden="true">
+    <h1>A do je sh veltini im zemer 💘</h1>
+    <button onclick="yes()">Po</button>
+    <button onclick="no(event)">Jo</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
